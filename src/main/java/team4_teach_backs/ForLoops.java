@@ -18,11 +18,14 @@ public class ForLoops {
 			   System.out.println(i);
 			}
 		
-		String[] orderList = {"dg", "grr", "fgf", "yfh", "yff", "gffk"};
+		String[] orderList = {"House", "Boat", "Car", "Shoe", "PS5"};
 				for(int i = 0; i < orderList.length; i++) {
 				   System.out.println(orderList[i]);
 				}
-
+				
+		for(int i=10; i>0; i--){
+            System.out.println("The value of i is: "+i);
+		   }
 	}
 		 
 			   
